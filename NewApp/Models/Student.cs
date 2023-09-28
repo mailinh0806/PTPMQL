@@ -16,7 +16,12 @@ namespace NewApp.Models
             System.Console.WriteLine("Lop: ");
             Lop = Console.ReadLine();
             System.Console.WriteLine("Tuoi: "); 
-            Tuoi = Convert.ToInt16(Console.ReadLine());
+            try{
+                Tuoi = Convert.ToInt16(Console.ReadLine());
+            }catch(Exception e)
+            {
+                Tuoi = 0;
+            }
         }
         public void HienThi()
         {

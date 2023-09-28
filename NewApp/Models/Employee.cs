@@ -14,7 +14,13 @@ namespace NewApp.Models
             System.Console.WriteLine("TenNhanVien: ");
             TenNhanVien = Console.ReadLine();
             System.Console.WriteLine("Tuoi: ");
-            Tuoi = Convert.ToInt16(Console.ReadLine());
+            try{
+               Tuoi = Convert.ToInt16(Console.ReadLine()); 
+            }catch(Exception e)
+            {
+                Tuoi = 0;
+            }
+            
             System.Console.WriteLine("Luong: "); 
             Luong = Convert.ToInt16(Console.ReadLine());
          }

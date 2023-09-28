@@ -20,7 +20,13 @@ namespace NewApp.Models
             System.Console.Write("Address: ");
             Address = Console.ReadLine();
             System.Console.Write("Age: ");
-            Age = Convert.ToInt32(Console.ReadLine());
+            try{
+                Age = Convert.ToInt32(Console.ReadLine());
+            }catch(Exception e)
+            {
+                Age = 0;
+            }
+            
         }
         public void HienThi(){
             System.Console.Write(FullName + " - " + Address + " - " + Age);
