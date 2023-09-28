@@ -5,8 +5,8 @@ public class Program
 {
     private static void Main(string[] args)
     {
-       Employee emp = new Employee();
-       emp.Nhapthongtin();
-       emp.HienThi();
+       Person ps = new Person();
+       ps.NhapThongTin();
+       ps.HienThi();
     }
 }
