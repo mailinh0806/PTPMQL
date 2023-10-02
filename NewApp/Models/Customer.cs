@@ -19,7 +19,7 @@ namespace NewApp.Models
          }
          public void HienThi(){
             base.HienThi();
-             System.Console.Write(IDCustomer + " - " + PhoneNumber + " - ");
+              System.Console.WriteLine(IDCustomer + " - " + PhoneNumber);
          }
         }
        
