@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<body> 
+<body>
 
-<p>sinh vien <br> vumailinh 2021050850.</p>
+<h2>HTML Image</h2>
+<img src="https://ts.humg.edu.vn/content/tintuc/PublishingImages/SuKien/sdh/truong%20cu.jpg" alt="Trulli" width="500" height="333">
 
 </body>
 </html>
