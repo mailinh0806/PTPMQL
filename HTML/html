@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-img {
-  opacity: 5;
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }
 </style>
 </head>
 <body>
 
-<h1>Image Transparency</h1>
-<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
-
-<p>Image with 50% opacity:</p>
-<img src="https://ts.humg.edu.vn/content/tintuc/PublishingImages/Tuyen%20sinh/truong%20moi.jpg" alt="HUMG" width="170" height="100">
+<div class="header">
+  <h1>Header</h1>
+</div>
 
 </body>
 </html>
