@@ -2,8 +2,10 @@
 <html>
 <body>
 
-<h2>HTML Image</h2>
-<img src="https://ts.humg.edu.vn/content/tintuc/PublishingImages/SuKien/sdh/truong%20cu.jpg" alt="Trulli" width="500" height="333">
+<p>I am normal</p>
+<p style="color:red;">vu mai linh 2021050850</p>
+<p style="color:blue;">vu mai linh 2021050850</p>
+<p style="font-size:40px;">vu mai linh 2021050850</p>
 
 </body>
 </html>
