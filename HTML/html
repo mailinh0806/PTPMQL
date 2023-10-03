@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+body {
+  background-color: green;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
 <body>
 
-<p style="border: 10px solid black">Hello linh</p>
-<div style="border: 0.5px solid black">Hello linh ne</div>
-
-<p>The P and the DIV elements are both block elements, and they will always start on a new line and take up the full width available (stretches out to the left and right as far as it can).</p>
+<h1>vu mai linh</h1>
+<p>2021050850.</p>
 
 </body>
 </html>
+
