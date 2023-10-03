@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-p {
-  text-align:right;
-  color: blue;
-} 
-</style>
+<link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
 
-<p>Every paragraph will be affected by the style.</p>
-<p id="para1">Me too!</p>
-<p>And me!</p>
+<h1>linh 850 </h1>
+<p><<<....</p>
 
 </body>
+</html>
+
+
