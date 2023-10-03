@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="mystyle.css">
+<style>
+img {
+  opacity: 5;
+}
+</style>
 </head>
 <body>
 
-<h1>linh 850 </h1>
-<p><<<....</p>
+<h1>Image Transparency</h1>
+<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+<p>Image with 50% opacity:</p>
+<img src="https://ts.humg.edu.vn/content/tintuc/PublishingImages/Tuyen%20sinh/truong%20moi.jpg" alt="HUMG" width="170" height="100">
 
 </body>
 </html>
-
-
