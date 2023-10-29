@@ -2,22 +2,32 @@
 <html>
 <head>
 <style>
-div {
-  background-color: light;
-  width: 300px;
-  border: 15px solid pink;
-  padding: 50px;
-  margin: 2px;
-}
+p {outline-color:pink;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.inset {outline-style: inset;}
 </style>
 </head>
 <body>
 
-<h2>Demonstrating the Box Model</h2>
+<h2>vu mai linh</h2>
 
-<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
-
-<div>vu mai linh.</div>
+<p class="dotted">A dotted outline</p>
+<p class="dashed">A dashed outline</p>
+<p class="solid">A solid outline</p>
+<p class="double">A double outline</p>
+<p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+<p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
+<p class="inset">An inset outline. The effect depends on the outline-color value.</p>
+<p class="inset">An outset outline. The effect depends on the outline-color value.</p>
 
 </body>
 </html>
+
+
