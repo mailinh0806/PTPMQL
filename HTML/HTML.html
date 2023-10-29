@@ -1,44 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
-  counter-reset: section;
+  margin: 0;
 }
 
-h1 {
-  counter-reset: subsection;
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }
 
-h1::before {
-  counter-increment: section;
-  content: "Section " counter(section) ". ";
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-h2::before {
-  counter-increment: subsection;
-  content: counter(section) "." counter(subsection) " ";
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 </style>
 </head>
 <body>
 
+<div class="header">
+  <h1>Header</h1>
+</div>
 
-<h1>HTML/CSS Tutorials</h1>
-<h2>HTML</h2>
-<h2>CSS</h2>
-<h2>Bootstrap</h2>
-<h2>W3.CSS</h2>
-
-<h1>Scripting Tutorials</h1>
-<h2>JavaScript</h2>
-<h2>jQuery</h2>
-<h2>React</h2>
-
-<h1>Programming Tutorials</h1>
-<h2>Python</h2>
-<h2>Java</h2>
-<h2>C++</h2>
+<div class="topnav">
+  <a href="#">vu</a>
+  <a href="#">mai</a>
+  <a href="#">linh</a>
+</div>
 
 </body>
 </html>
