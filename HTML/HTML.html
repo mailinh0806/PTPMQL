@@ -2,22 +2,33 @@
 <html>
 <head>
 <style> 
-#borderimg { 
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 30 round;
+p.test1 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
 </head>
 <body>
 
-<h1>mai linh</h1>
+<h1>vu mai linh</h1>
+<p>The following two paragraphs contains a long text that will not fit in the box.</p>
 
-<p>Here, the middle sections of the image are repeated to create the border:</p>
-<p id="borderimg">border-image: url(border.png) 30 round;</p>
+<h2>text-overflow: clip:</h2>
+<p class="test1">This is some long text that will not fit in the box</p>
 
-<p>Here is the original image:</p><img src="border.png">
-<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+<h2>text-overflow: ellipsis:</h2>
+<p class="test2">This is some long text that will not fit in the box</p>
 
 </body>
 </html>
