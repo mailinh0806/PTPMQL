@@ -2,38 +2,21 @@
 <html>
 <head>
 <style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+body {
+  background-color: pink;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
-  padding: 20px 0;
-  font-size: 30px;
+@media all and (min-width: 480px) {
+  body {
+    background-color: red;
+  }
 }
 </style>
 </head>
 <body>
 
-<h1>vu mai linh</h1>
-
-<p>You can use the <em>grid-template-columns</em> property to specify the number of columns in your grid layout.</p>
-
-<div class="grid-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>  
-  <div>7</div>
-  <div>8</div>
-</div>
+<h1>mai linh!</h1>
+<p>The media query will only apply if the media type is screen and the viewport is 480px wide or wider.</p>
 
 </body>
 </html>
