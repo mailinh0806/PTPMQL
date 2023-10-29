@@ -2,22 +2,19 @@
 <html>
 <head>
 <style>
-div.relative {
-  position: relative;
-  left: 30px;
-  border: 3px solid #73AD21;
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 </style>
 </head>
 <body>
 
-<h2>position: relative;</h2>
-
-<p>An element with position: relative; is positioned relative to its normal position:</p>
-
-<div class="relative">
-vu mai linh;
-</div>
+<h1>vu mai linh</h1>
+<img src="img_tree.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
 
 </body>
 </html>
