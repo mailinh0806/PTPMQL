@@ -2,24 +2,22 @@
 <html>
 <head>
 <style> 
-#example1 {
-  background-image: url(img_flwr.gif), url(paper.gif);
-  background-position: left bottom, left top;
-  background-repeat: no-repeat, repeat;
+#borderimg { 
+  border: 10px solid transparent;
   padding: 15px;
+  border-image: url(border.png) 30 round;
 }
 </style>
 </head>
 <body>
 
-<h1>Multiple Backgrounds</h1>
-<p>The following div element has two background images:</p>
+<h1>mai linh</h1>
 
-<div id="example1">
-  <h1>vu mai linh</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</div>
+<p>Here, the middle sections of the image are repeated to create the border:</p>
+<p id="borderimg">border-image: url(border.png) 30 round;</p>
+
+<p>Here is the original image:</p><img src="border.png">
+<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
 
 </body>
 </html>
