@@ -1,8 +1,38 @@
-<form asp-action="Index">      
-  <p><label>PersonID</label>
-    <input name="PersonID" class="w3-input w3-border" type="text"></p>
-    <label>FullName</label>
-    <p><input name="FullName" class="w3-input w3-border " type="text">
-    <input class="w3-btn w3-grey w3-border" type ="submit"></p>
-</form>
-<h2>@ViewBag.thongbao</h2>
+@model IEnumerable<FirstWebMVC.Models.Person>
+
+@{
+    ViewData["Title"]= "Index";
+}
+<h1>Index</h1>
+
+<p>
+  <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.FullName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model =>model.Address)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model){
+    <tr>
+      <td>
+        @Html.DisplayFor(modelItem => item.FullName)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Address)
+      </td>
+      <td>
+        <a asp-action="Edit" asp-route-id="@item.PersonID">Edit</a>
+        <a asp-action="Delete" asp-route-id="@item.PersonID">Delete</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
