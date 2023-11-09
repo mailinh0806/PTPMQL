@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PTPMQL\FirstWebMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PTPMQL/FirstWebMVC/Views/Daily/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/Daily/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/Daily/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/Daily/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/Daily/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PTPMQL/FirstWebMVC/Views/Demo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +54,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PTPMQL/FirstWebMVC/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/HeThongPhanPhoi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/HeThongPhanPhoi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/HeThongPhanPhoi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/HeThongPhanPhoi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL/FirstWebMVC/Views/HeThongPhanPhoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PTPMQL/FirstWebMVC/Views/Home/Demo.cshtml]
