@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace FirstWebMVC.Models
 {
-    [Table("Persons")]
+    [Table("Person")]
     public class Person
     {
         

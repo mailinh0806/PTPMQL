@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstWebMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231106191816_Create_table_Person")]
-    partial class Create_table_Person
+    [Migration("20231108161127_Create_Column_PhoneNumber_Person")]
+    partial class Create_Column_PhoneNumber_Person
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,7 +38,7 @@ namespace FirstWebMVC.Migrations
 
                     b.HasKey("PersonID");
 
-                    b.ToTable("Persons");
+                    b.ToTable("Person");
                 });
 #pragma warning restore 612, 618
         }
